@@ -1,0 +1,79 @@
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip-link {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    float: left;
+    padding: 5px;
+    overflow: hidden;
+}
+
+
+.skip-link:link, .skip-link:visited, .skip-link:hover, .skip-link:active {
+    color: white;  /* Normalise the color */
+}
+
+.skip-link:focus {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+}
+
+/* General styling */
+
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    text-align: right;
+    padding-right: 20%;
+}
+
+#skills-and-languages {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#skills-and-languages > section {
+    min-width: 240px;
+    max-width: 300px;
+}
+
+
+main {
+    flex-basis: 60%;
+}
+aside {
+    flex-basis: 40%;
+    min-width: 300px;
+}
+
+/* Work experience section */
+
+#work-experience li {
+    display: grid;
+    grid-template-columns: 0.3fr 0.7fr;
+}
+
+#work-experience h3 {
+    margin: 0;
+}
+
+#education li {
+    display: block;
+}

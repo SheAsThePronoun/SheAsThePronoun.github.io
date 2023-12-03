@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>She V.</title>
+    <link rel="stylesheet" href="https://unpkg.com/wingcss" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h1>{{me.name}}</h1>
+    </header>
+    <main id="main">
+        {{#> section title="Work Experience"}}
+            <ul>
+                {{#each experience.work}}
+                <li>
+
+                    <span>
+                        {{start}} -
+                        {{#if end}}
+                        {{end}}
+                        {{else}}
+                        Heden
+                        {{/if}}
+                    </span>
+                    <div>
+                        <h3>{{function}}, {{company}}</h3>
+                        <span>{{location}}</span>
+                        <p>{{description}}</p>
+                    </div>
+                </li>
+                {{/each}}
+            </ul>
+        {{/section}}
+
+        <div id="skills-and-languages">
+            {{#> section title="Skills"}}
+                <ul>
+                    {{#each skills}}
+                    <!-- Because not an object, use {{ this }} -->
+                    <li>{{this}}</li>
+                    {{/each}}
+                </ul>
+            {{/section}}
+
+            {{#> section title="Languages"}}
+                <ul>
+                    {{#each languages as |level language|}}
+                    <!-- Because not an object, use {{ this }} -->
+                    <li>{{language}} - {{level}}</li>
+                    {{/each}}
+                </ul>
+            {{/section}}
+        </div>
+        
+    </main>
+    <aside>
+        {{#> section title="Education"}}
+            <ul>
+                {{#each experience.education}}
+                <li>
+                    <h3>{{course}}, {{school}}</h3>
+                    <p>{{location}}</p>
+                    <span>
+                        {{start}} -
+                        {{#if end}}
+                        {{end}}
+                        {{else}}
+                        Heden
+                        {{/if}}
+                    </span>
+                    <p>{{learned}}</p>
+                </li>
+                {{/each}}
+            </ul>
+        {{/section}}
+    </aside>
+
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+<!-- Partial for sections, including headers -->
+<section id="{{slugify title}}">
+    <!-- aria-hidden so the //'s don't appear for screenreaders! -->
+    <h2><span aria-hidden="true">//&nbsp;</span>{{title}}</h2>
+    <!-- Render content passed within section block -->
+    {{> @partial-block}}
+</section>
