@@ -31,19 +31,49 @@
 
 /* General styling */
 
+@font-face {
+    font-family: "Karma";
+    font-weight: normal;
+    src: url("/assets/Karma/Karma-Regular.ttf")
+}
+
+@font-face {
+    font-family: "Karma";
+    font-weight: bold;
+    src: url("/assets/Karma/Karma-Bold.ttf")
+}
+
+@font-face {
+    font-family: "Nadia-Serif";
+    font-weight: normal;
+    src: url("/assets/Nadia-Serif/nadia_serif.ttf")
+}
 
 body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
+
+    font-family: "Karma", 'Times New Roman', Times, serif;
+
+    color: rgb(34, 34, 34);
+    background-color: #f6f6f6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
 }
 
 header {
     width: 100%;
-    text-align: right;
-    padding-right: 20%;
+
+    display: flex;
+    justify-content: space-around;
+    
+    border-bottom: 2px solid rgb(34, 34, 34);
 }
+
 
 #skills-and-languages {
     display: flex;
@@ -67,6 +97,7 @@ aside {
 @media print {
     main, aside {
         flex-basis: 100%;
+        margin-bottom: 50px;
     } 
 }
 
