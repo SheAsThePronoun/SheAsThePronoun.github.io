@@ -64,6 +64,11 @@ aside {
     flex-basis: 40%;
     flex: 1;
 }
+@media print {
+    main, aside {
+        flex-basis: 100%;
+    } 
+}
 
 /* Work experience section */
 
