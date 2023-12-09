@@ -70,11 +70,13 @@ header {
     width: 100%;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+
+    text-align: center;
     
     border-bottom: 2px solid rgb(34, 34, 34);
 }
-
 
 #skills-and-languages {
     display: flex;
