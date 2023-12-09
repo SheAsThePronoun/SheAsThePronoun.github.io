@@ -58,7 +58,8 @@ body {
     font-family: "Karma", 'Times New Roman', Times, serif;
 
     color: rgb(34, 34, 34);
-    background-color: #f6f6f6;
+    background-color: #ecedef;
+    background-image: url("/assets/tile.jpg");
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -108,11 +109,8 @@ aside {
     grid-template-columns: 0.3fr 0.7fr;
 }
 
-#work-experience h3 {
+#work-experience h3, #education h3 {
     margin: 0;
-}
-
-#education {
 }
 
 #education li {
