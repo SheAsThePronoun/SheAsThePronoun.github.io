@@ -1,0 +1,52 @@
+name: Build static Eleventy & deploy to Pages
+
+on:
+  # On a main branch update
+  push:
+    branches: ["main"]
+  # Or a manual run
+  workflow_dispatch:
+
+# Needed for GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deployment at the time
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    # GitHub Pages settings
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+        
+      - name: Install pre-requirements
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+        
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: 'dist/'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
