@@ -1,5 +1,19 @@
 {
-    "Dutch": "Mother tongue",
-    "English": "Bilingual",
-    "French": "High school knowledge"
+    "human": {
+        "Dutch": "Mother tongue",
+        "English": "Bilingual",
+        "French": "High school knowledge"
+    },
+    "programming": {
+        "HTML/CSS/Javascript": "Fundamental knowledge",
+        "Vue.js": "Fundamental knowledge",
+        "Browser Extension Development": "Multiple projects created",
+        "Python": "Experienced",
+        "MySQL": "Experienced",
+        "Git": "Experienced",
+        "JQuery": "Experienced",
+        "Trello": "Experienced",
+        "Node.js": "Basic knowledge",
+        "PHP": "Very basic knowledge"
+    }
 }

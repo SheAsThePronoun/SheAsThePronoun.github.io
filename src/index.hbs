@@ -68,10 +68,18 @@
             {{/section}}
 
             {{#> section title="Languages"}}
+                <h3>Human</h3>
                 <ul>
-                    {{#each languages as |level language|}}
-                    <!-- Because not an object, use {{ this }} -->
-                    <li>{{language}} - {{level}}</li>
+                    {{#each languages.human as |level language|}}
+                        <!-- Because not an object, use {{ this }} -->
+                        <li>{{language}} - {{level}}</li>
+                    {{/each}}
+                </ul>
+                <h3>Programming</h3>
+                <ul>
+                    {{#each languages.programming as |level language|}}
+                        <!-- Because not an object, use {{ this }} -->
+                        <li>{{language}} - {{level}}</li>
                     {{/each}}
                 </ul>
             {{/section}}
