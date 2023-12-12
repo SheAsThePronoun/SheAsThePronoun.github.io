@@ -1,7 +1,15 @@
 {
     "work": [
         {
+            "start": "07/2023",
+            "function": "Assistant floor manager",
+            "company": "8tea5",
+            "location": "Antwerpen, België",
+            "description": "Training other employees, (overseeing) opening and closing shop. Preparing & serving drinks for local customers and takeout."
+        },
+        {
             "start": "10/2022",
+            "end": "07/2023",
             "function": "Buddy at T-Buddy",
             "company": "Het Roze Huis",
             "location": "Antwerpen, België",
@@ -9,6 +17,7 @@
         },
         {
             "start": "09/2022",
+            "end": "07/2023",
             "function": "Event organiser / supervisor and bartender",
             "company": "Peperfabriek",
             "location": "Antwerpen, België",
