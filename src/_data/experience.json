@@ -4,7 +4,7 @@
             "start": "07/2023",
             "function": "Assistant floor manager",
             "company": "8tea5",
-            "location": "Antwerpen, België",
+            "location": "Antwerp, Belgium",
             "description": "Training other employees, (overseeing) opening and closing shop. Preparing & serving drinks for local customers and takeout."
         },
         {
@@ -12,7 +12,7 @@
             "end": "07/2023",
             "function": "Buddy at T-Buddy",
             "company": "Het Roze Huis",
-            "location": "Antwerpen, België",
+            "location": "Antwerp, Belgium",
             "description": "Volunteering job. Part of the management and decisionmaking core team of T-Buddy. Linking buddies to buddy-applicants, 1 on 1 conversations buddy. Event and T-café supervisor."
         },
         {
@@ -20,7 +20,7 @@
             "end": "07/2023",
             "function": "Event organiser / supervisor and bartender",
             "company": "Peperfabriek",
-            "location": "Antwerpen, België",
+            "location": "Antwerp, Belgium",
             "description": "Volunteering job as manager and organiser at events. Bartender during receptions and events during the evening."
         },
         {
@@ -28,7 +28,7 @@
             "end": "05/2020",
             "function": "Warehouse manager",
             "company": "Dupont de Nemours",
-            "location": "Mechelen, België",
+            "location": "Mechelen, Belgium",
             "description": "Warehouse management: purchases, customer- and supplierrelations, logistics, stock management and assistant work planner. SAP ERP system user."
         },
         {
@@ -36,7 +36,7 @@
             "end": "08/2017",
             "function": "Warehouse employee",
             "company": "Varop",
-            "location": "Lier, België",
+            "location": "Lier, Belgium",
             "description": "Vacation job."
         },
         {
@@ -44,8 +44,8 @@
             "end": "08/2017",
             "function": "Activity leader Speelplein",
             "company": "Jeugddienst",
-            "location": "Heist-op-den-Berg, België",
-            "description": "Volunteer work with children in a playful envrionment in a managerial and organisatorial function."
+            "location": "Heist-op-den-Berg, Belgium",
+            "description": "Volunteer work with children in a playful envrionment. Fulfilled a managerial and organisatorial function."
         }
     ],
     "education": [
@@ -54,7 +54,7 @@
             "end": "08/2022",
             "course": "Bachelor Toegapste Informatica / Cloud, IoT en Cybersec",
             "school": "Thomas More",
-            "location": "Geel, België",
+            "location": "Geel, Belgium",
             "learned": "Network management, IoT, computer & server hardware, back-end development, Agile development. Discontinued due to personal reasons."
         },
         {
@@ -62,7 +62,7 @@
             "end": "08/2018",
             "course": "Bachelor Applied Informatics / Cyber Security",
             "school": "Howest",
-            "location": "Brugge, België",
+            "location": "Brugge, Belgium",
             "learned": "Network management, webdesign, computer hardware, programming, Agile development. Discontinued due to personal reasons."
         },
         {
@@ -70,7 +70,7 @@
             "end": "08/2017",
             "course": "TSO 3rd degree Multimedia",
             "school": "Stedelijk Lyceum Eilandje (Kunstkaai)",
-            "location": "Antwerpen, België",
+            "location": "Antwerp, Belgium",
             "learned": "Graphical design, webdesign, programming, photography, image editing, video editing and animating."
         },
         {
@@ -78,7 +78,7 @@
             "end": "08/2014",
             "course": "ASO 1st & 2nd degree Business economics",
             "school": "Sint-Ursula Lyceum",
-            "location": "Lier, België",
+            "location": "Lier, Belgium",
             "learned": "Business economics: trade, billing, bookkeeping, company management and marketing."
         }
     ]
